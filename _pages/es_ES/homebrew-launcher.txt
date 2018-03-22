@@ -8,9 +8,11 @@ title: "Homebrew Launcher"
 
 El Homebrew Launcher actualmente se "instala" en tu consola a través de un exploit de navegador. 
 
-Una vez que esta instalación se realiza, serás capaz de acceder al Homebrew Launcher a través de la aplicación Álbum *hasta que la consola sea reiniciada*.
+Luego de que el proceso de instalación inicial haya terminado, debes ejecutar un exploit secundario que te permitirá acceder al Homebrew Launcher mediante la aplicación Álbum *hasta que tu consola sea reininiciada*. 
 
-Luego de un reinicio, tendrás que volver a ejecutar el exploit para habilitar nuevamente el acceso al Homebrew Launcher en tu consola. Si estás familiarizado con el "jailbreak" en dispositivos iOS, la idea de la guía podría considerarse similar a un "jailbreak semi-ligado".
+Después de reiniciar, tendrás que volver a ejecutar el exploit secundario para habilitar nuevamente el acceso al Homebrew Launcher en tu consola. Además, ten en cuenta que este exploit secundario impedirá que puedas jugar a juegos retail mientras esté activo (*hasta que tu consola sea reiniciada*).
+ 
+Si estás familiarizado con el "jailbreak" en dispositivos iOS, la idea de la guía podría considerarse similar a un "jailbreak semi-ligado".
 
 Ten en cuenta que el actual exploit de homebrew tiene el efecto secundario de corromper la base de datos de Miis de tu consola luego de la instalación inicial. Más allá de que el efecto no es dañino, resultará en la pérdida de cualquier Mii creado por el usuario.
 {: .notice--warning}
@@ -48,7 +50,7 @@ Ten en cuenta que estos servidores DNS deberán ser ajustados por cada red a la 
 
 #### Sección III - Instalación inicial
 
-1. Ve a `Internet` -> `Prueba de conexión`
+1. Entra en `Internet` -> `Configuración de internet`
 1. Selecciona tu red actual
 1. Selecciona "Conectarse a esta red"
 1. Si la conexión por DNS fue exitosa, aparecerá un mensaje diciendo "Es necesario registrarse para poder utilizar esta red."
@@ -59,12 +61,13 @@ Ten en cuenta que estos servidores DNS deberán ser ajustados por cada red a la 
 1. Si el exploit fue exitoso, aparecerá el error `2000-1337`
   + Si la consola se queda congelada en la página de PegaSwitch sin mostrar el error, reinicia tu consola y realiza la prueba de conexión de nuevo
 1. Reinicia tu consola
+1. Cuando se alerte sobre corrupción en la base de datos de Mii, selecciona "OK" para reiniciar tu consola nuevamente
 
 #### Sección IV - Ejecutar el Homebrew Launcher
 
 Ten en cuenta que tendrás que volver a realizar esta sección del exploit luego de cada reinicio para poder rehabilitar el acceso al Homebrew Launcher.
 
-1. Ve a `Internet` -> `Prueba de conexión`
+1. Entra en `Internet` -> `Configuración de internet`
 1. Selecciona tu red actual
 1. Selecciona "Conectarse a esta red"
 1. Si la conexión por DNS fue exitosa, aparecerá un mensaje diciendo "Es necesario registrarse para poder utilizar esta red."
@@ -115,8 +118,11 @@ Para instalar aplicaciones homebrew, simplemente copia el archivo `.nro` de la a
 
 ___
 
-Ahora puedes iniciar el Homebrew Launcher iniciando la aplicación Álbum en el menú HOME de tu consola (hasta el próximo reinicio).
+Ahora puedes iniciar el Homebrew Launcher iniciando la aplicación Álbum en el menú HOME de tu consola (*hasta reiniciar tu consola*).
 {: .notice--success}
+
+Ahora no podrás ejecutar un cartucho retail o juegos eShop (*hasta que reinicies tu consola*).
+{: .notice--warning}
 
 Necesitarás volver a realizar los pasos para ejecutar el exploit (al usar cualquier applet de navegador) luego de cada reinicio, para así rehabilitar el acceso al Homebrew Launcher en tu consola.
 {: .notice--warning}

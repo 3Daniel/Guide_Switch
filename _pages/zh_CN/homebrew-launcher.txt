@@ -8,9 +8,11 @@ title: "Homebrew Launcher"
 
 The Homebrew Launcher is currently "installed" to your device through a browser exploit. 
 
-Once this installation has been performed, you will be able to access the Homebrew Launcher through the Album application *until your device is rebooted*.
+After the initial installation process is completed, a secondary exploit must then be run which will allow you to access the Homebrew Launcher through the Album application *until your device is rebooted*. 
 
-After a reboot, you will have to re-run the exploit in order to re-enable Homebrew Launcher access on your device. If you are familiar with iOS device "jailbreaking", this idea could be considered analagous to a "semi-untethered jailbreak".
+After a reboot, you will have to re-run this secondary exploit in order to re-enable Homebrew Launcher access on your device. Additionally, note that this secondary exploit will also prevent you from playing retail games for as long as it remains active (*until your device is rebooted*).
+ 
+If you are familiar with iOS device "jailbreaking", this idea could be considered analagous to a "semi-untethered jailbreak".
 
 Note that the current homebrew exploit has the side-effect of corrupting your device's Mii Database upon initial installation. While this effect is harmless, it will result in the loss of any user-created Miis.
 {: .notice--warning}
@@ -49,7 +51,7 @@ Note that these DNS servers will need to be set on each network you connect your
 
 #### Section III - Initial Installation
 
-1. Navigate to `Internet` -> `Test Connection`
+1. 进入到 `Internet` -> `Internet Settings`
 1. 选择当前网络
 1. Select "Connect to this Network"
 1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
@@ -60,12 +62,13 @@ Note that these DNS servers will need to be set on each network you connect your
 1. If the exploit was successful, you will see the error `2000-1337`
   + If you get stuck on the PegaSwitch page without seeing the error, reboot your device and try performing the connection test again
 1. Reboot your device
+1. When prompted about Mii database corruption, select "OK" to reboot your device again
 
 #### Section IV - Running the Homebrew Launcher
 
 Note that you will have to re-run this section of the exploit after each reboot in order to re-enable access to the Homebrew Launcher.
 
-1. Navigate to `Internet` -> `Test Connection`
+1. 进入到 `Internet` -> `Internet Settings`
 1. 选择当前网络
 1. Select "Connect to this Network"
 1. If the DNS connection was successful, you will see the message "Registration is required to use this network."
@@ -81,7 +84,7 @@ Note that you will have to re-run this section of the exploit after each reboot 
 
 As you must re-run the "Run" section of the exploit after each reboot, it would be ideal if there was a more convenient way of launching the browser than the connection test.
 
-Fortunately, there are actually [multiple](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) browsers applets on the Switch, and any of them can be used to trigger the browser exploit.
+Fortunately, there are actually [multiple](http://switchbrew.org/index.php?title=Internet_Browser#Browser_Applets) browser applets on the Switch, and any of them can be used to trigger the browser exploit.
 
 Two convenient methods for launching a browser are listed below:
 
@@ -116,8 +119,11 @@ To install homebrew applications, simply copy the homebrew `.nro` file to the `/
 
 ___
 
-You can now launch the Homebrew Launcher by launching the Album application from your device's home menu (until next reboot).
+You can now launch the Homebrew Launcher by launching the Album application from your device's home menu (*until your device is rebooted*).
 {: .notice--success}
+
+You will now be unable to launch retail cartridge or eShop games (*until your device is rebooted*).
+{: .notice--warning}
 
 You will need to re-run the "Run" step of the exploit (using any browser applet) after each reboot in order to re-enable Homebrew Launcher access on your device.
 {: .notice--warning}

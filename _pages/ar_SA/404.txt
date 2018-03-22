@@ -1,9 +1,9 @@
 ---
-title: "Page Not Found" #
+title: "لم يتم العثور على الصفحة" #
 layout: single-no-ads
-excerpt: "Page not found. Your pixels are in another canvas." #
+excerpt: "لم يتم العثور على الصفحة". شكرا لك ماريو! لكن أميرتنا في قلعة أخرى." #
 sitemap: false
 ---
 
-Sorry, but the page you were trying to view does not exist.
+نأسف, ولكن الصفحة التي تحاول مشاهدتها ليست موجوده.
 {: .notice--info}

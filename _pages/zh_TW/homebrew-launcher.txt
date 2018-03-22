@@ -8,9 +8,11 @@ title: "Homebrew Launcher"
 
 Homebrew Launcher 目前是透過一個網頁瀏覽器漏洞『安裝』至您的主機中的。 
 
-安裝完成後，您將可以通過相簿應用程序來啟動 Homebrew Launcher－直到您的主機重啟為止。
+在初始安裝完成後，我們得使用另一個次要漏洞讓您可以透過相簿應用程式啟動 Homebrew Launcher 直到您的主機重啟為止。 
 
-重新啟動後，您必須重新運行漏洞才能重新啟用主機中的 Homebrew Launcher。 如果您熟悉 iOS『越獄』的用語的話，那麼這個就有點像是所謂的『不完美越獄 (semi-untethered jailbreak)』。
+重新啟動後，您必須重新運行此次要漏洞才能重新啟用主機中的 Homebrew Launcher。 請另外注意，此次要漏洞於使用時將阻止您遊玩零售遊戲卡帶 (*直到您的主機重啟為止*)。
+ 
+如果您熟悉 iOS『越獄』的用語的話，那麼這個就有點像是所謂的『不完美越獄 (semi-untethered jailbreak)』。
 
 請注意，目前的漏洞具有在初始安裝時損壞主機中的 Mii 資料庫的副作用。 雖然這種副作用是相對無害的，但它將會導致任何所有已創建的 Mii 的丟失。
 {: .notice--warning}
@@ -48,7 +50,7 @@ Homebrew Launcher 目前是透過一個網頁瀏覽器漏洞『安裝』至您�
 
 #### 第三節 － 初次安裝
 
-1. 移動至 `網路 (Internet)` -> `測試連線 (Test Connection)`
+1. 移動至 `網路 (Internet)` -> `網路設定 (Internet Settings)`
 1. 選擇您目前所連結的網路
 1. 選擇『連線至此網路 (Connect to this Network)』
 1. 如果 DNS 設置成功的話，您將會看到『您需要先註冊或登入才能使用本網路 (Registration is required to use this network)』的訊息。
@@ -59,12 +61,13 @@ Homebrew Launcher 目前是透過一個網頁瀏覽器漏洞『安裝』至您�
 1. 如果漏洞成功執行的話，您將會看到錯誤代碼 `2000-1337`
   + 如果您卡在 PegaSwitch 的頁面且沒看到任何錯誤代碼，請重啟您的主機並再試一次
 1. 重新啟動您的主機
+1. 當提示 Mii 資料庫損壞的可能性時，按下『OK』以重啟您的裝置。
 
 #### 第四節 — 啟動 Homebrew Launcher
 
 請注意，為了重新啟用 Homebrew Launcher，您得在每次重新啟動後重新運行此章節。
 
-1. 移動至 `網路 (Internet)` -> `測試連線 (Test Connection)`
+1. 移動至 `網路 (Internet)` -> `網路設定 (Internet Settings)`
 1. 選擇您目前所連結的網路
 1. 選擇『連線至此網路 (Connect to this Network)』
 1. 如果 DNS 設置成功的話，您將會看到『您需要先註冊或登入才能使用本網路 (Registration is required to use this network)』的訊息。
@@ -115,8 +118,11 @@ ___
 
 ___
 
-您現在可以透過主機主選單中的相簿應用程式來啟動 Homebrew Launcher（直到下次重新啟動）。
+您現在可以透過主機主選單中的相簿應用程式來啟動 Homebrew Launcher (*直到您的主機重啟為止*)。
 {: .notice--success}
+
+您現在將無法啟動任何零售遊戲卡帶或 eShop 遊戲 (*直到您的主機重啟為止*)。
+{: .notice--warning}
 
 您需要在每次重新啟動後重新運行上述的啟動步驟 (透過任何瀏覽器) 以便重新啟用主機中的 Homebrew Launcher。
 {: .notice--warning}
